@@ -1,0 +1,24 @@
+/* eslint-disable prettier/prettier */
+
+import {StyleSheet, Text, View, SafeAreaView} from 'react-native';
+import InstaStory from "./components/instaStory";
+import StoryScreen from "./components/storyScreen";
+
+const App = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <InstaStory />
+      <StoryScreen/>
+    </SafeAreaView>
+  );
+}
+export default App
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    // backgroundColor: '#fff',
+    // alignItems: 'center',
+    // justifyContent: 'center',
+  },
+});
